@@ -198,7 +198,7 @@ executable GenSamples
                  , binary >=0.6.3 && < 0.8
                  , array >= 0.4 && <0.6
                  , vector >= 0.10 && < 0.11
-                 , random >= 1.0 && < 1.1
+                 , random >= 1.0 && < 1.2
                  , normaldistribution >= 1.1 && < 1.2
                  , deepseq >= 1.3 && < 1.5
                  , bytestring >= 0.9 && < 0.11
@@ -229,7 +229,7 @@ executable fwsparse
   other-modules: SparseGraph MapCompat
   hs-source-dirs: fwsparse
   build-depends:   base >= 4.5 && < 4.9
-                 , random >= 1.0 && < 1.1
+                 , random >= 1.0 && < 1.2
                  , array >= 0.4 && <0.6
                  , containers >= 0.4 && < 0.6
   default-language: Haskell2010
@@ -239,7 +239,7 @@ executable fwsparse1
   other-modules: SparseGraph MapCompat
   hs-source-dirs: fwsparse
   build-depends:   base >= 4.5 && < 4.9
-                 , random >= 1.0 && < 1.1
+                 , random >= 1.0 && < 1.2
                  , array >= 0.4 && <0.6
                  , containers >= 0.4 && < 0.6
                  , monad-par >= 0.3.4 && < 0.4
@@ -252,7 +252,7 @@ executable  timetable
   build-depends:   base >= 4.5 && < 4.9
                  , containers >= 0.4 && < 0.6
                  , deepseq >= 1.3 && < 1.5
-                 , random >= 1.0 && < 1.1
+                 , random >= 1.0 && < 1.2
   default-language: Haskell2010
 
 executable  timetable1
@@ -261,7 +261,7 @@ executable  timetable1
                  , containers >= 0.4 && < 0.6
                  , deepseq >= 1.3 && < 1.5
                  , monad-par >= 0.3.4 && < 0.4
-                 , random >= 1.0 && < 1.1
+                 , random >= 1.0 && < 1.2
   default-language: Haskell2010
 
 executable  timetable2
@@ -270,7 +270,7 @@ executable  timetable2
                  , containers >= 0.4 && < 0.6
                  , deepseq >= 1.3 && < 1.5
                  , monad-par >= 0.3.4 && < 0.4
-                 , random >= 1.0 && < 1.1
+                 , random >= 1.0 && < 1.2
   default-language: Haskell2010
 
 executable  timetable3
@@ -279,7 +279,7 @@ executable  timetable3
                  , containers >= 0.4 && < 0.6
                  , deepseq >= 1.3 && < 1.5
                  , monad-par >= 0.3.4 && < 0.4
-                 , random >= 1.0 && < 1.1
+                 , random >= 1.0 && < 1.2
   default-language: Haskell2010
 
 executable  parinfer
